@@ -15,3 +15,11 @@ Others felt weird or looked weird.
 First Version is Trash but Ill be building upon it over time.
 
 Hope it doesnt suck lol
+
+INSTRUCTIONS
+1. GIT CLONE REPO TO LOCAL
+2. INSTALL NODE JS TO YOUR LOCAL MACHINE @ https://nodejs.org/en
+3. RUN " npm install "
+4. RUN " npm run dev " in local terminal from folder
+5. OPEN "http://localhost:3000/"
+6. Give Feedback :)
