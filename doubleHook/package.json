@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.3",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.11",
+    "next": "latest",
+    "nvm": "^0.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "styled-components": "^6.1.6",
+    "yarn": "^1.22.21"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
