@@ -8,13 +8,36 @@
         "6": "Rear Uppercut"
     },
     "Defense" : {
-        "b" : "Block",
-        "sl" : "Slip Left",
+        "b": "Block",
+        "sl": "Slip Left",
         "sr": "Slip Right",
         "pr": "Parry Right",
         "pl": "Parry Left",
         "rr": "Roll Right",
         "rl": "Roll Left",
         "sb": "Step Back"
+    },
+    "BasicCombos" : {
+        "1": [1],
+        "2": [1,2],
+        "3": [1,2,3],
+        "4": [1,2,3,4],
+        "5": [1,2,3,4,5],
+        "6": [1,2,3,4,6]
+    },
+    "CoverCounters": {
+        "highLeft": ["Block Left","Left", "Right", "Left"],
+        "highRight": ["Block Right","Right", "Left", "Right"],
+        "lowLeft": ["Body Block Left","Left Upper", "Right", "Left"],
+        "lowRight": ["Body Block Right","Right Upper", "Left", "Right"]
+    },
+    "Counters": {
+        "1": [1,"Slip",2,3,2],
+        "2": [1,2,"Slip","Slip",3,2,3],
+        "3": [1,2,3,"Roll",3,2,3],
+        "4": [1,2,3,4,"Roll",2,3,2],
+        "5": [1,2,3,4,5,3,2,"Roll",2,3,2],
+        "6": [1,2,3,4,6,2,3,"Roll",3,2,3]
+
     }
 }
